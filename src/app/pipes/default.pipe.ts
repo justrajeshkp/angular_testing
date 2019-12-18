@@ -9,7 +9,7 @@ export class DefaultPipe implements PipeTransform {
         if (value) {
             image = value;
         } else {
-            // image = fallback;
+            image = fallback;
         }
         if(forceHttps){
             // tslint:disable-next-line: triple-equals
